@@ -1,0 +1,10 @@
+name: simple-tf-script
+desc: Simple TF script
+cmd: python example.py --input ${INPUT} --model ${MODEL}
+env:
+  python: auto
+inputs:
+  - input.json: INPUT
+outputs:
+  - model.zip: MODEL
+cloud-instance-type: g1.1

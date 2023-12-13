@@ -1,0 +1,8 @@
+name: simple-bash-script
+desc: Find text pattern in input file with grep
+cmd: ./run.sh
+inputs:
+  - run.sh
+  - input_text.txt
+outputs:
+  - output_text.txt

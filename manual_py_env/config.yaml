@@ -1,0 +1,11 @@
+name: manual-pyenv
+desc: Find integer array mean
+cmd: python main.py
+env:
+  python:
+    type: manual
+    requirements-file: requirements.txt
+    local-paths:
+      - data.py
+outputs:
+  - result.txt

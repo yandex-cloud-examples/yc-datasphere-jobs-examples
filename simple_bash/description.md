@@ -1,0 +1,1 @@
+Test simple case with executing bash script, which runs grep in input file and writes result in output file.

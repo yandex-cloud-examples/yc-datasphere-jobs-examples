@@ -1,0 +1,8 @@
+name: train_garnment_model
+desc: Script to train PyTorch model for garnment recognition
+cmd: python3 train_garnment_model.py --result ${OUTPUT}
+env:
+  python: auto
+outputs:
+  - model: OUTPUT
+cloud-instance-type: g1.1

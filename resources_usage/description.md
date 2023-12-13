@@ -1,0 +1,1 @@
+Test that all kinds of DS project resources supported in Jobs – project disk, datasets, secrets, s3 mounts (WIP) – are working. 

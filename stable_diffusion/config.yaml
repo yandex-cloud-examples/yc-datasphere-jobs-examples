@@ -1,0 +1,9 @@
+name: generate-image
+desc: Script to generate image with stable diffusion using datasphere jobs
+cmd: python3 main.py "banana flying over the moon"
+env:
+  python: auto
+outputs:
+  - generated_images.zip
+cloud-instance-type: g1.1
+

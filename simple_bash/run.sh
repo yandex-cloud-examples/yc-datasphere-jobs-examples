@@ -1,0 +1,1 @@
+grep duck input_text.txt > output_text.txt

@@ -1,0 +1,13 @@
+name: resources_usage
+desc: Script which uses DataSphere project resources – project disk, datasets.
+cmd: ./run.sh ${DS_PROJECT_HOME}/texts ${CIFAR_10}
+inputs:
+  - run.sh
+outputs:
+  - files_in_texts_directory.txt
+  - dataset_size.txt
+  - secret.txt
+datasets:
+  - bt1373vgqcgpljclbg1n: CIFAR_10
+flags:
+  - attach-project-disk
