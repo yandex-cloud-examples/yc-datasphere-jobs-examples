@@ -4,8 +4,10 @@ cmd: python main.py
 env:
   python:
     type: manual
+    version: 3.10
     requirements-file: requirements.txt
     local-paths:
+      - main.py
       - data.py
 outputs:
   - result.txt

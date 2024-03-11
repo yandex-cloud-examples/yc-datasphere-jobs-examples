@@ -1,0 +1,9 @@
+name: deepspeed-example
+desc: DeepSpeed example
+cmd: deepspeed main.py --num_gpus=1   --deepspeed_stage 2   --apply_lora True
+env:
+   python:
+     type: auto
+     root-paths:
+       - main.py
+cloud-instance-type: g2.1
