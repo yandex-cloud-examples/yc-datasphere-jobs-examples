@@ -1,0 +1,11 @@
+name: deepspeed-example
+desc: DeepSpeed example
+cmd: deepspeed main.py --num_gpus=1   --deepspeed_stage 2   --apply_lora True
+env:
+   python:
+     type: manual
+     version: 3.10.5
+     requirements-file: requirements.txt
+     local-paths:
+       - main.py
+cloud-instance-type: g2.1

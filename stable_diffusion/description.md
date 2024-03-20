@@ -1,1 +1,1 @@
-Simple StableDiffusion example.
+[StableDiffusion]() usage example.
